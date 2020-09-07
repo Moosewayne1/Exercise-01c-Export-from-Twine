@@ -1,0 +1,157 @@
+{
+  "passages": [
+    {
+      "text": "School\nToday is a new school day and you're late for class\n[[Run to make it to class]]\n[[Take your time]]\n[[Make breakfast]]\n[[Go back to sleep and try again tomorrow]]",
+      "links": [
+        {
+          "name": "Run to make it to class",
+          "link": "Run to make it to class",
+          "pid": "2"
+        },
+        {
+          "name": "Take your time",
+          "link": "Take your time",
+          "pid": "6"
+        },
+        {
+          "name": "Make breakfast",
+          "link": "Make breakfast",
+          "pid": "7"
+        },
+        {
+          "name": "Go back to sleep and try again tomorrow",
+          "link": "Go back to sleep and try again tomorrow",
+          "pid": "8"
+        }
+      ],
+      "name": "Freshman Year",
+      "pid": "1",
+      "position": {
+        "x": "402",
+        "y": "172"
+      },
+      "tags": [
+        "Room"
+      ]
+    },
+    {
+      "text": "You fall on the way to class. \n[[Get up and keep running. ]] \n[[Fall asleep on the ground]]",
+      "links": [
+        {
+          "name": "Get up and keep running. ",
+          "link": "Get up and keep running. ",
+          "pid": "3"
+        },
+        {
+          "name": "Fall asleep on the ground",
+          "link": "Fall asleep on the ground",
+          "pid": "4"
+        }
+      ],
+      "name": "Run to make it to class",
+      "pid": "2",
+      "position": {
+        "x": "253",
+        "y": "388"
+      }
+    },
+    {
+      "text": "Class is cancelled for the day. You go home.",
+      "name": "Get up and keep running. ",
+      "pid": "3",
+      "position": {
+        "x": "139",
+        "y": "578"
+      }
+    },
+    {
+      "text": "You feel refreshed but you overslept. You go home. ",
+      "name": "Fall asleep on the ground",
+      "pid": "4",
+      "position": {
+        "x": "306",
+        "y": "573"
+      }
+    },
+    {
+      "text": "You enjoy coffee with your friend. You go home happy. ",
+      "name": "Go grab coffee",
+      "pid": "5",
+      "position": {
+        "x": "475",
+        "y": "566"
+      }
+    },
+    {
+      "text": "You walk slowly through the campus. You run into a friend \n[[Go grab coffee]] ",
+      "links": [
+        {
+          "name": "Go grab coffee",
+          "link": "Go grab coffee",
+          "pid": "5"
+        }
+      ],
+      "name": "Take your time",
+      "pid": "6",
+      "position": {
+        "x": "427",
+        "y": "402"
+      }
+    },
+    {
+      "text": "Breakfast gives you energy. \n[[Run to class]]",
+      "links": [
+        {
+          "name": "Run to class",
+          "link": "Run to class",
+          "pid": "10"
+        }
+      ],
+      "name": "Make breakfast",
+      "pid": "7",
+      "position": {
+        "x": "757",
+        "y": "411"
+      }
+    },
+    {
+      "text": "You lose motivation \n[[Fail out of school]]",
+      "links": [
+        {
+          "name": "Fail out of school",
+          "link": "Fail out of school",
+          "pid": "9"
+        }
+      ],
+      "name": "Go back to sleep and try again tomorrow",
+      "pid": "8",
+      "position": {
+        "x": "600",
+        "y": "404"
+      }
+    },
+    {
+      "text": "Don't skip class.",
+      "name": "Fail out of school",
+      "pid": "9",
+      "position": {
+        "x": "616",
+        "y": "568"
+      }
+    },
+    {
+      "text": "You make it to class energized and ready to learn.",
+      "name": "Run to class",
+      "pid": "10",
+      "position": {
+        "x": "757",
+        "y": "564"
+      }
+    }
+  ],
+  "name": "https://lazerwalker.com/twison/format.js",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "40220F98-B138-4406-9722-757842BC4F36"
+}
